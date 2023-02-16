@@ -8,7 +8,7 @@ WLD_RUN_FLAGS=$(RUN_FLAGS)
 ifeq ($(CONCURRNCY),single)
 override WLD_CMD_FLAGS=-i118
 else
-override WLD_CMD_FLAGS=-i667
+override WLD_CMD_FLAGS=-i856
 endif
 
 #It is possible to change the parameters for best concurrency on a per workload basis.
